@@ -21,6 +21,15 @@ function dividir(a, b) {
       return "Error: No se puede dividir por cero";
     }
   }
+  
+// Función para calcular el factorial de un número
+function factorial(num) {
+    if (num === 0 || num === 1) {
+      return 1;
+    } else {
+      return num * factorial(num - 1);
+    }
+  }
 
   // Función principal del programa
   function calculadora() {
