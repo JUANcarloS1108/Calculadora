@@ -21,6 +21,11 @@ function dividir(a, b) {
       return "Error: No se puede dividir por cero";
     }
   }
+
+// Función para calcular el exponente de un número
+function exponente(base, exponenteNum) {
+    return Math.pow(base, exponenteNum);
+  }
   
 // Función para calcular el factorial de un número
 function factorial(num) {
