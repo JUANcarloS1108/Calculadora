@@ -2,11 +2,17 @@
 function sumar(num1, num2) {
     return num1 + num2;
   }
+
   // Función para restar dos números
 function restar(a, b) {
     return a - b;
   }
   
+// Función para multiplicar dos números
+function multiplicar(a, b) {
+    return a * b;
+  }
+
   // Función principal del programa
   function calculadora() {
     var opcion = prompt(
