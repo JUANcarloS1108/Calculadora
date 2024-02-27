@@ -12,6 +12,15 @@ function restar(a, b) {
 function multiplicar(a, b) {
     return a * b;
   }
+ 
+// Función para dividir dos números
+function dividir(a, b) {
+    if (b !== 0) {
+      return a / b;
+    } else {
+      return "Error: No se puede dividir por cero";
+    }
+  }
 
   // Función principal del programa
   function calculadora() {
