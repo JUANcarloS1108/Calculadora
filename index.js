@@ -35,6 +35,15 @@ function factorial(num) {
       return num * factorial(num - 1);
     }
   }
+  
+// Función para calcular la raíz cuadrada de un número
+function raizCuadrada(num) {
+    if (num >= 0) {
+      return Math.sqrt(num);
+    } else {
+      return "Error: No se puede calcular la raíz cuadrada de un número negativo";
+    }
+  }
 
   // Función principal del programa
   function calculadora() {
